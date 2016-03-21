@@ -1,0 +1,179 @@
+.main{
+	width: 960px;
+	height: auto;
+	margin-right: auto;
+    margin-left : auto;
+}
+/*ラップ*/
+.down-contents{
+	width: 910px;
+	height:auto;
+	margin:0 auto;
+}
+
+.header{
+	height: 60px;
+	color-font: #75EB8A;
+	text-align: center;
+
+}
+
+.header h1{
+	overflow: hidden;
+	line-height: -1000px;
+	background-repeat: no-repeat;
+}
+
+.header img{
+	width:30%;
+}
+
+.display{
+	background-color: blue;
+	height: 300px;
+	text-align: center;
+}
+.display-text h2{
+	border-top: 20px;
+}
+.display-title{
+	margin-top: 20px;
+	color: white;
+
+}
+.contents{
+	width: 600px;
+	height: auto;
+	padding-top: 20px;
+	background-color: white;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+.contents p{
+	margin-top: 0px;
+}
+.content-text{
+	width: 360px;
+	float: right;
+	list-style: none;
+	margin-right: 10px;
+
+}
+.content-text p;{
+	header: red;
+}
+
+.content-text p{
+	font-size:15px;
+	margin: 15px 3px;
+	hover:red;
+}
+.content-text h3{
+	margin: 5px 3px; 
+}
+
+.sidebar{
+	float: left;
+	background-color: #efefef;
+	width: 270px;
+}
+
+
+.recommend{
+	background-color: #efefef;
+	
+	margin-top: 10px;
+	float: left;
+}
+.sideup{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color: #efefef;
+}
+.dummybanner{
+	list-style: none;
+	margin-top: 30px 20px 20px;
+	background-color: #efefef;
+	border-top: 10px;
+
+}
+.dummybanner p{
+	border-top: 10px;
+	text-align: center;
+}
+.dummybanner img{
+	border-top: 100px;
+}
+#recommend-pic{
+	margin-right: 10px;
+	margin-left:  10px;
+	text-align: center;
+}
+.divright{
+	float:left;
+}
+
+.right-text{
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-right: 25px;
+}
+.right-text p{
+	font-size: 1px;
+    margin: 1px 3px;
+    width: 125px;
+    margin-right: 1px;
+    float: left;
+    font-weight:bold;
+
+}
+.right-text span{
+	line-height:0px;
+	margin-top: 0px;
+	margin-left: 3px;
+
+}
+.footer{
+	width: auto;
+	background-color: #FCFFC0;
+	clear: left;
+	color: white;
+	background-color: #000;
+}
+
+.footer-left{
+	float:left;
+}
+.footer-right{
+	float:right;
+}
+.smallhome{
+	float:left;
+}
+.smallhome img{
+	margin-left:20px;
+	margin-bottom: 20px;
+	float:left;
+}
+.mallhome span{
+	line-height: 5px;
+}
+
+span{
+    font-size: 10px;
+	color: #9FA4A1;
+	font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', "Meiryo, Osaka", "ＭＳ Ｐゴシック",
+}
+button {
+	background-color: #000;
+	width: 400px;
+	height: 40px;
+	margin-left: 80px;
+	text-align: center;
+}
+
+
+
+
