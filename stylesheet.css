@@ -166,9 +166,15 @@ span{
 	color: #9FA4A1;
 	font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', "Meiryo, Osaka", "ＭＳ Ｐゴシック",
 }
+
+ul{
+	margin:0;
+	padding:0;
+}
+
 li{
 	list-style: none;
-	padding: 0px;
+	padding: 0;
 }
 
 
