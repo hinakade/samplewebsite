@@ -63,11 +63,11 @@
 .content-text p;{
 	header: red;
 }
+.content-text p:hover {color:red;}
 
 .content-text p{
 	font-size:15px;
 	margin: 15px 3px;
-	hover:red;
 }
 .content-text h3{
 	margin: 5px 3px; 
@@ -90,6 +90,9 @@
 	margin-left: 20px;
 	margin-bottom: 20px;
 	background-color: #efefef;
+}
+.sideup img{
+	padding-top: 20px;
 }
 .dummybanner{
 	list-style: none;
@@ -115,7 +118,7 @@
 }
 
 .right-text{
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	margin-left: 5px;
 	margin-top: 0px;
 	margin-right: 25px;
@@ -145,17 +148,20 @@
 }
 
 .footer-left{
+	/*background-color: red;*/
+	margin-left: 50px;
 	float:left;
 }
 .footer-right{
-	float:right;
+	margin-right: 100px;
+	text-align:right;
 }
 .smallhome{
 	float:left;
 }
 .smallhome img{
 	margin-left:20px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	float:left;
 }
 .mallhome span{
@@ -191,6 +197,44 @@ li{
 	padding: 0;
 }
 
+/*上ボタン実装*/
+
+/*.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+*/
+.pagetop　img {
+	width:200px ;
+	text-align:right;
+
+}
 
 
 

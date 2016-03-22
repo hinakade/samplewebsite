@@ -17,6 +17,28 @@
 		});
 	</script>
 
+	<!-- 一番上まで行くボタン実装 -->
+	
+	<script>
+$(document).ready(function() {
+  var pagetop = $('.pagetop');
+    $(window).scroll(function () {
+       if ($(this).scrollTop() > 100) {
+            pagetop.fadeIn();
+       } else {
+            pagetop.fadeOut();
+            }
+       });
+       pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+   });
+});
+</script>
+
+<!-- ここまで上ボタンj -->
+
+
 	<body>
 		<div class="main">
 
@@ -80,6 +102,53 @@
 			  	</ul>
 
 
+		<div class="more">More</div>
+　　		<div class="content">
+
+				<ul>
+			  		<li><img ref=".hogejpg"></li>
+	    	    		<img src="assets/images/home.png" alt="home.png"width="220px" height="160px" />
+           	  		<div class="content-text">
+           	  			<span>2016.01.01</span>	
+			  			<h3>サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</h3>
+			  			<p>サンプルテキストサンプルテキストサンプルテキテキストサンプルテキテキスト</p>
+			  		</div>
+			  	</ul>
+			  </div>
+
+		<div class="more">More</div>
+　　		<div class="content">
+
+				<ul>
+			  		<li><img ref=".hogejpg"></li>
+	    	    		<img src="assets/images/home.png" alt="home.png"width="220px" height="160px" />
+           	  		<div class="content-text">
+           	  			<span>2016.01.01</span>	
+			  			<h3>サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</h3>
+			  			<p>サンプルテキストサンプルテキストサンプルテキテキストサンプルテキテキスト</p>
+			  		</div>
+			  	</ul>
+			  </div>
+
+		<div class="more">More</div>
+　　		<div class="content">
+
+				<ul>
+			  		<li><img ref=".hogejpg"></li>
+	    	    		<img src="assets/images/home.png" alt="home.png"width="220px" height="160px" />
+           	  		<div class="content-text">
+           	  			<span>2016.01.01</span>	
+			  			<h3>サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</h3>
+			  			<p>サンプルテキストサンプルテキストサンプルテキテキストサンプルテキテキスト</p>
+			  		</div>
+			  	</ul>
+			  </div>
+
+
+
+
+
+
 					 </div>
 			  </div>
 		<div class="sidebar">
@@ -93,12 +162,22 @@
 				<div class="smallhome">
 					<img src="assets/images/home.png" alt="smail-home"width="96px" height="70x" float="left"/>
 				</div>
-
 				<div class="right-text">
 				<p>サンプルテキストサンプルサンプルテキストサンプルサンプルテキスト</p>	
 						<span>2016.01.01</span>	
 				</div>
-						
+					
+			<div class="recommend">
+				<div class="smallhome">
+					<img src="assets/images/home.png" alt="smail-home"width="96px" height="70x" float="left"/>
+				</div>
+				<div class="right-text">
+				<p>サンプルテキストサンプルサンプルテキストサンプルサンプルテキスト</p>	
+						<span>2016.01.01</span>	
+				</div>
+
+
+
 				<div class="dummybanner">
 					<p><img src="assets/images/google.png" alt="google1" width="80%"></p>			
 					<p><img src="assets/images/google.png" alt="google1" width="80%"></p>
@@ -108,11 +187,11 @@
 		</div>
 	</div>
 			<div class="footer">
-   				<div class="footer-left">運営会社  個人情報について</div>
-   				<div class="footer-light"><p>@2016 Sample</p>
+   					<div class="footer-left">運営会社  個人情報について</div>
+   					<div class="footer-right"><p>@2016 Sample</p></div>
 			</div>
-
-	</div>	
+			
+	<p class="pagetop"><a href="#wrap"><img src="assets/images/up.png" alt="▲" width="5%" text-align="right"></a></p>
    </body>
  
 </html>
