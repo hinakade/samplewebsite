@@ -4,6 +4,8 @@
 	margin-right: auto;
     margin-left : auto;
 }
+
+
 /*ラップ*/
 .down-contents{
 	width: 910px;
@@ -63,7 +65,7 @@
 .content-text p;{
 	header: red;
 }
-.content-text p:hover {color:red;}
+.content-text p:hover {color:#E8D24E;}
 
 .content-text p{
 	font-size:15px;
@@ -197,45 +199,23 @@ li{
 	padding: 0;
 }
 
-/*上ボタン実装*/
-
-/*.pagetop {
-    display: none;
-    position: fixed;
-    bottom: 30px;
-    right: 15px;
+.up{
+	clear: left;
+	width: 960px;
+	height: 30px;
 }
-.pagetop a {
-    display: block;
-    background-color: #ccc;
-    text-align: center;
-    color: #222;
-    font-size: 12px;
-    text-decoration: none;
-    padding: 5px 10px;
-	filter:alpha(opacity=50);
-    -moz-opacity: 0.5;
-    opacity: 0.5;
+.up img{
+	margin-right: 50px;
+	float:right;
 }
-.pagetop a:hover {
-    display: block;
-    background-color: #b2d1fb;
-    text-align: center;
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-    padding:5px 10px;
-	filter:alpha(opacity=50);
-    -moz-opacity: 0.5;
-    opacity: 0.5;
+.hoge{
+position:absolute; 
+top:100px; 
+left:50px; 
+width: 100px;
+text-align: center;
+color: white;
 }
-*/
-.pagetop　img {
-	width:200px ;
-	text-align:right;
-
-}
-
 
 
 
