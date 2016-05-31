@@ -1,3 +1,7 @@
+body{
+	width: auto;
+	height:auto;
+}
 .main{
 	width: 960px;
 	height: auto;
@@ -84,7 +88,7 @@
 
 .recommend{
 	background-color: #efefef;
-	
+	height:100%;
 	margin-top: 10px;
 	float: left;
 }
@@ -142,16 +146,30 @@
 
 }
 .footer{
-	width: auto;
 	background-color: #FCFFC0;
-	clear: left;
 	color: white;
 	background-color: #000;
-}
+	margin-left: 0px;
+	height: 20px;
+	clear: left;
 
+}
+.footer p{
+	font-size: 10px;
+}
+.footer ul{
+	margin-left: 20px;
+	float:left;
+}
+.footer li{
+	margin-right: 20px;
+	font-size: 10px;
+	float:left;
+}
 .footer-left{
 	/*background-color: red;*/
 	margin-left: 50px;
+	font-style: 3px;
 	float:left;
 }
 .footer-right{
@@ -192,11 +210,14 @@ span{
 ul{
 	margin:0;
 	padding:0;
+	margin-top: 0;
 }
 
 li{
+	margin-top: 0px;
 	list-style: none;
 	padding: 0;
+	margin-top: 0;
 }
 
 .up{
@@ -208,14 +229,15 @@ li{
 	margin-right: 50px;
 	float:right;
 }
-.hoge{
+.moji{
 position:absolute; 
-top:100px; 
-left:50px; 
-width: 100px;
+margin-top: 70px;
+margin-left:200px; 
+width: 550px;
 text-align: center;
 color: white;
 }
+
 
 
 
