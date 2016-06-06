@@ -2,6 +2,12 @@ body{
 	width: auto;
 	height:auto;
 }
+li{
+	margin-top: 0px;
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+}
 .main{
 	width: 960px;
 	height: auto;
@@ -47,6 +53,12 @@ body{
 	color: white;
 
 }
+
+/*新しく追加*/
+.content{
+	margin-top: 0;
+}
+/*新しく追加　ここまで　*/
 .contents{
 	width: 600px;
 	height: auto;
@@ -135,7 +147,7 @@ body{
     margin: 1px 3px;
     width: 125px;
     margin-right: 1px;
-    float: left;
+    float: right;
     font-weight:bold;
 
 }
@@ -195,7 +207,7 @@ body{
 	text-align: center;
 	padding: 5px;
 	cursor: pointer;
-	margin-top: 20px;
+	margin-top: 3px;
 	margin-right:auto;
 	margin-left: auto;
 }
@@ -213,12 +225,7 @@ ul{
 	margin-top: 0;
 }
 
-li{
-	margin-top: 0px;
-	list-style: none;
-	padding: 0;
-	margin-top: 0;
-}
+
 
 .up{
 	clear: left;
@@ -236,6 +243,10 @@ margin-left:200px;
 width: 550px;
 text-align: center;
 color: white;
+}
+
+.hoge-test{
+	marign: 0;
 }
 
 
